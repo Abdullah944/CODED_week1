@@ -1,0 +1,24 @@
+
+Cat = print and run the file in the terminal .
+
+~ = home / root.
+
+ls = show list -- ls -la = show all file.
+
+rm = delete.
+
+mkdir = make directory.
+
+pwd = print working directory.
+
+cd = change directory.
+
+history = give you the history.
+
+.svg = can change css/html properties of a file.
+
+cd.. = go back in the directory 2 times.
+
+ssh key = key in github give you more security.
+
+touch = make new file or directory.

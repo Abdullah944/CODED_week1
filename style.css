@@ -1,0 +1,69 @@
+/* the css file is for putting makeup to the site */
+
+body {
+  /* this will change all page background color */
+  background-color: #1a374d;
+}
+
+h1 {
+  /*  changing the text color to lightblue*/
+  color: #b1d0e0;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: #b1d0e0;
+}
+/* calling the img by class name */
+.baby_img {
+  border-radius: 50%; /* make the img round */
+  width: 100px;
+  height: 100px;
+  /* note: to align the img : inside div || change the margin */
+}
+div {
+  text-align: center; /* centering the img */
+}
+/* notification  + make relative mean what inside belong to it (parent
+)*/
+#cardById {
+  position: relative;
+  text-align: left;
+  background-color: rgb(9, 173, 238);
+  color: black;
+  padding: 10px;
+}
+/* notification h1 text  */
+.cardH1 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* number 3 and the red circle border + absolute make it free to move */
+.insideTheCard {
+  position: absolute;
+  border-style: solid;
+  border-radius: 50%;
+  margin: -10px;
+  background-color: rgb(167, 21, 16);
+  bottom: 50px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+}
+/* number 3 as text */
+.h1InsideCard {
+  color: black;
+  margin: 20%;
+}
+.links {
+  background-color: rgb(9, 247, 255);
+  margin: 10px;
+}
+.flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexBoxButtons {
+  align-content: space-around;
+}

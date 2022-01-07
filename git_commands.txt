@@ -1,0 +1,26 @@
+
+git status = give the status of an repository.
+
+git nano = use text editor in the terminal.
+
+git add . = add all changes to the repository.
+
+git commit -m "" = confirm the changes that's been added in the repository. -m = message
+
+git clone URL(link of the repository SSH) = download the repository.
+
+fork = copy the repository from the project creator to you.
+
+git push = upload the changes to the repository.
+
+--STEPS TO GET PROJECT IN YOU PC : :
+
+1- FORK >> from the github account.
+2- copy the repository url by SSH .
+3- git clone PASTE the url. ( in the terminal). make sure of the pwd.
+
+--STEPS TO UPLOAD THE CHANGES TO FORKED repository::
+1- git add .  .     ( adding all files to the staging area)
+2- git commit -m "change 1"  .       (confirm the changes)
+3- git push .    (uploading the files to he repository in github)
+
