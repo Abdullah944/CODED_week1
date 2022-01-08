@@ -13,6 +13,7 @@ h1 {
 p {
   text-align: center;
   color: #b1d0e0;
+  
 }
 /* calling the img by class name */
 .baby_img {
@@ -24,14 +25,15 @@ p {
 div {
   text-align: center; /* centering the img */
 }
-/* notification  + make relative mean what inside belong to it (parent
-)*/
+/* positioning ::--------------------------------------------------------------------------------------------------- */
+/* notification  + make relative mean what inside belong to it (parent)-----------------------------------------------------*/
 #cardById {
   position: relative;
   text-align: left;
   background-color: rgb(9, 173, 238);
   color: black;
   padding: 10px;
+  margin: 0 200px 0 200px;   /* top right bottom left */
 }
 /* notification h1 text  */
 .cardH1 {
@@ -55,14 +57,17 @@ div {
   color: black;
   margin: 20%;
 }
+/* flex box:: -------------------------------------------------------------------------*/
 .links {
   background-color: rgb(9, 247, 255);
-  margin: 10px;
+  margin: 0 200px 0 200px;
 }
 .flexBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  
+  background-color: aliceblue;
 }
 .flexBoxButtons {
   align-content: space-around;
